@@ -564,9 +564,7 @@ blockquote {
     color: var(--text-link);
 }
 
-.expression-picker-chat-input-button {
-    display: none;
-}
+
 
 .contents-3NembX {
     color: var(--text-normal);
@@ -616,6 +614,11 @@ blockquote {
     left: unset;
     top: unset;
     bottom: unset;
+}
+
+.border-2BJQjd.avatarSpeaking-2pCGrZ {
+  -webkit-box-shadow: inset 0 0 0 3px #A9A9A9,inset 0 0 0 4px var(--black-500);
+  box-shadow: inset 0 0 0 3px #A9A9A9,inset 0 0 0 4px var(--black-500);
 }
 
 .popoutBanner-3cqRD9 {
@@ -893,10 +896,21 @@ svg:hover path:hover {
     color: var(--background-accent);
 }
 
+/* INPUT ICONS */
+
 .button-2fCJ0o,
 .button-3BaQ4X,
-.stickerButton-1-nFh2 {
+.stickerButton-1-nFh2,
+.expression-picker-chat-input-button {
     display: none;
+}
+/* 
+.button-ejjZWC .contents-3NembX {
+    filter: grayscale(0%);
+} */
+
+.sprite-2lxwfc {
+    filter: grayscale(0%);
 }
 
 .markup-eYLPri code {
@@ -1307,4 +1321,12 @@ svg:hover path:hover {
 
 .colorDefault-2_rLdz:hover {
     color: var(--colob);
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    color: var(--colob);
+}
+
+.theme-dark .bioTextArea-dDGOeC, .theme-light .bioTextArea-dDGOeC {
+    background-color: var(--colob);
 }
