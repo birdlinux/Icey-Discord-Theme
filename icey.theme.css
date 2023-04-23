@@ -11,12 +11,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 @import url("https://crearts-community.github.io/Settings-Icons/src/source.css");
-/* */
-
-
-::-webkit-scrollbar-thumb {
-  background-color: red;
-}
 
 :root,
 .theme-dark {
@@ -1296,4 +1290,21 @@ svg:hover path:hover {
 
 .groupStart-3Mlgv1::before, .hasContent-1y12-u::before, .messageListItem-ZZ7v6g+.scrollerSpacer-3AqkT9::before {
     border: 5px solid transparent;
+}
+
+.homeIcon-r0w4ny path {
+    fill: var(--colob) !important;
+}
+
+.icon-2Ug6UV path {
+    fill: var(--colob) !important;
+}
+
+.childWrapper-1j_1ub {
+    background-color: var(--status-danger);
+    color: var(--colob);
+}
+
+.colorDefault-2_rLdz:hover {
+    color: var(--colob);
 }
